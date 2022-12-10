@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(rgb(5, 4, 170) 0%, aliceblue 100%);
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+}
+
+#startButton {
+    font-size: 20px;
+}
+
+#status, #objectFoundOrNot {
+    font-size: 14px;
+}
+
+#input {
+    border-color: lightcoral;
+    background-color: lightskyblue;
+    color: royalblue;
+}
+
+canvas {
+    border: 2px solid lightcoral;
+    border-radius: 14px;
+    margin-top: 140px;
+    box-shadow: 4px 4px 4px royalblue;
+}
